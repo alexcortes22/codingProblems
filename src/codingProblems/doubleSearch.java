@@ -11,7 +11,7 @@ public class doubleSearch {
             int doubleNum = arr[i] * 2;
             int result = binarySearch(arr, doubleNum, 0, arr.length - 1);
             
-            if(result > 0){
+            if(result >= 0){
                 found = true;
                 break;
             }

@@ -7,5 +7,10 @@ public class App {
         boolean result = doubleSearch.checkIfExist(nums);
 
         System.out.println("N and its double exists: " + result);
+
+
+        int number = -101;
+        boolean palindrome = palindromeNumber.isPalindrome(number);
+        System.out.println(palindrome);
     }
 }
